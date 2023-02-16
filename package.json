@@ -1,0 +1,22 @@
+{
+  "name": "matching-app",
+  "version": "1.0.0",
+  "description": "Hallo wereld.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnienke/matching-app.git"
+  },
+  "author": "Nienke Knol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnienke/matching-app/issues"
+  },
+  "homepage": "https://github.com/itsnienke/matching-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
