@@ -1,3 +1,93 @@
 body {
     background-color:cadetblue;
 }
+
+@font-face {
+    font-family: 'brickregular';
+    src: url('brick-webfont.woff2') format('woff2'),
+         url('brick-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'brickregular';
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    
+}
+
+section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    margin: 0em 2em;
+}
+
+section:nth-of-type(1) h2 {
+    font-family: 'bebas_neueregular';
+    font-size: 2em;
+    margin: 0em;
+    color: #3C717A;
+}
+
+section:nth-of-type(1) img:nth-of-type(1) {
+    width: 4em;
+
+}
+
+img:nth-of-type(2) {
+    display: flex;
+    position: relative;
+    height: 11em;
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    margin: 0em 2em;
+}
+
+section:nth-of-type(2) h3 {
+    font-size: 2em;
+    color: #ffff;
+    margin: 0em;
+}
+
+section:nth-of-type(2) p {
+    color: #ffff;
+    font-size: 2em;
+    margin: 0em;
+}
+
+section:nth-of-type(3) {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-of-type(3) img:nth-of-type(2) {
+    width: 2em;
+}
+
+ul {
+    font-family: 'brick';
+    font-size: 2em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
