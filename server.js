@@ -4,6 +4,25 @@ const app = express()
 const port = 3000
 
 app.use(express.static('static'))
+app.set('view engine', 'ejs')
+app.set('views', 'view')
+
+var userlist = [
+{
+  id: 'nienke',
+  name: 'nienke',
+  description: 'retired sage main'
+},
+{
+  id: 'ellie',
+  name: 'iridescent',
+  description: 'instalock jett'
+}
+]
+
+app.get('/lijst', function users(req, res) {
+  res.render('list.ejs', {username: userlist[0].name})
+})
 
 app.get('/hallo', (req, res) => {
   res.send('<img src="/image/images.jpeg" width="150px">Hello World!')
