@@ -1,5 +1,5 @@
 # matching-app
 
-Hallo wereld.
+Hier bevindt alle stappen die ik zet voor het maken van mijn matching-app
 
-Hallo wereld 2.
+
