@@ -1,11 +1,7 @@
-body {
-    background-color:cadetblue;
-}
-
 @font-face {
     font-family: 'brickregular';
-    src: url('brick-webfont.woff2') format('woff2'),
-         url('brick-webfont.woff') format('woff');
+    src: url('./fonts/brick-webfont.woff2') format('woff2'),
+         url('./fonts/brick-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -13,15 +9,24 @@ body {
 
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
-         url('bebasneue-regular-webfont.woff') format('woff');
+    src: url('./fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('./fonts/bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+:root{
+    --font1: bebas_neueregular, sansserif;
+    --font2: brickregular, sansserif;
+}
+
+body {
+    background-color: #497079;
+}
+
 h1 {
-    font-family: 'brickregular';
+    font-family: var(--font2);
     display: flex;
     justify-content: center;
     font-size: 2.5em;
@@ -37,7 +42,7 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(1) h2 {
-    font-family: 'bebas_neueregular';
+    font-family: var(--font1);
     font-size: 2em;
     margin: 0em;
     color: #3C717A;
