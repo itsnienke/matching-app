@@ -9,13 +9,13 @@ app.set('views', 'view')
 
 var userlist = [
 {
-  id: 'nienke',
+  id: 'itsnienke',
   name: 'nienke',
   description: 'retired sage main'
 },
 {
-  id: 'ellie',
-  name: 'iridescent',
+  id: 'iridescent',
+  name: 'ellie',
   description: 'instalock jett'
 }
 ]
