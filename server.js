@@ -7,7 +7,7 @@ app.use(express.static('static'))
 app.set('view engine', 'ejs')
 app.set('views', 'view')
 
-var userlist = [
+const userlist = [
 {
   id: 'itsnienke',
   name: 'nienke',
@@ -21,7 +21,7 @@ var userlist = [
 ]
 
 app.get('/lijst', function users(req, res) {
-  res.render('list.ejs', {username: userlist[0].name})
+  res.render('list.ejs', {username: userlist[1].name})
 })
 
 app.get('/hallo', (req, res) => {
